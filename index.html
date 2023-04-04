@@ -577,10 +577,10 @@ h6{
 				if (attempts >= 5) {
 					// Set a cookie to ban the user for 10 minutes
 					document.cookie = "ban=true; expires=" + new Date(Date.now() + 10 * 60 * 1000).toUTCString();
-					alert("You have been banned for 10 minutes.");
+					alert("To keep our website safe, you have been banned for 10 minutes.");
 					document.querySelector("#password-form").style.display = "none";
 				} else {
-					alert("Incorrect password. Please try again.");
+					alert("Incorrect answer. Please try again.");
 				}
 			}
 		});
