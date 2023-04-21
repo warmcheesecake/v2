@@ -330,7 +330,7 @@ h6{
 </body>
 </html>
         <div id="links" class="animated fadeInLeft delay-1s games">
-            <div class="game_title"><input placeholder="Search" id="search" class="search" onkeyup="search_it()" type="search"><select id="tags" class="button" onclick="search_it()"><option value="all">All Farts</option><option value="pop">Popular</option><option value="two">Two Player</option><option value="stream">Streaming (Fixed)</option><option value="bad">Bad Farts</option></select></div>
+            <div class="game_title"><input placeholder="Search" id="search" class="search" onkeyup="search_it()" type="search"><select id="tags" class="button" onclick="search_it()"><option value="all">All Farts</option><option value="pop">Popular</option><option value="two">Two Player</option><option value="stream">Streaming (Broken)</option><option value="bad">Bad Farts</option></select></div>
             <h2 class="animated jello game_title">All farts:</h2>
             <a id="Basketball Stars" class="link" href="./play/basketball-stars/" target="_blank"><span class="bar"></span><img src="./icons/BAS.webp"><b>Basketball Stars</b><span class="badge"><i class="fa-solid fa-user"></i> RECOMMENDED</span></a>
 	    <a id="Ages of Conflict" class="link" href="./play/ages-of-conflict/" target="_blank"><span class="bar"></span><img src="./icons/ages-of-conflict.webp"><b>Ages of Conflict</b><span class="badge"><i class="fa-solid fa-user"></i> RECOMMENDED</span></a>
@@ -496,17 +496,67 @@ h6{
             <a id="xx142-b2exe" class="link" href="./play/xx142-b2exe/" target="_blank"><span class="bar"></span><img src="./icons/xx142-b2exe.webp"><b>xx142-b2exe</b></a>
             <a id="Zombs Royale" class="link" href="./play/zombs-royale/" target="_blank"><span class="bar"></span><img src="./icons/zombs-royale.webp"><b>Zombs Royale</b></a>
             <a id="Yoshifabrication" class="link" href="./play/yoshifabrication/" target="_blank"><span class="bar"></span><img src="./icons/yoshifabrication.webp"><b>Yoshifabrication</b></a>
+            <a id="Zoro" class="link stream" href="./play/zoro/" target="_blank"><span class="bar"></span><img src="./icons/zoro.webp"><b>Zoro.to</b><span class="badge"><i class="fa-solid fa-file-video"></i> STREAMING</span></a>
             <p class="game_title">This project is completely open source! If you want to make your own version of this site <a class="epci" href="https://github.com/OddPvP/unblockedgames">click here</a> for more information! You can also see the beta site with more games <a class="epci" href="https://games.odd.gay/">here</a>!</p>
             <p class="game_title">Have any suggestions? Please tell us in our <a class="epci" href="https://discord.gg/xksWyP9aJv">discord server</a> or email us at requests@odd.gay in our <a class="epci" href="https://discord.gg/xksWyP9aJv">discord server</a> we also have many more links! So join in case this one gets blocked</p>
             <p class="game_title">Please do not play these games in school without permission. Doing so anyways can result in loss of computer and/or other school punnishment.  You also agree that we are using analysis to collect data like how you are on the website, like how many live users are on the website, and what games you play.</p>
             <p class="game_title">Want to see the Update Log? <a class="epci" href="https://docs.google.com/document/d/1SQ0lhWSVgZq-Jcy_tQaoz-U7TyHfHDRgnL4EJqzT59o/edit?usp=sharing">click here</a> 
         </div>
 
-<a href="https://67.207.72.190/" target="_blank" style="display: inline-block; background-color: #f5f5f5; border-radius: 10px; padding: 10px; text-decoration: none; color: #333; font-weight: bold; text-align: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); transition: all 0.3s ease;">
-  <img src="https://67.207.72.190/images/logo.png" alt="Proxy" style="display: block; margin: 0 auto; width: 150px; height: 50px; border-radius: 10px;">
-  <span style="display: block; margin-top: 10px;">Proxy</span>
-</a>
-            
+<div class="button-wrapper">
+  <a href="https://67.207.72.190/" class="my-button">
+    <span class="my-button-text">
+      <img src="https://67.207.72.190/images/logo.png" alt="Logo" width="150" height="50">
+    </span>
+    <span class="button-label">Proxy</span>
+  </a>
+</div>
+
+<style>
+.button-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+.my-button {
+  display: inline-block;
+  position: relative;
+  background-color: #fff;
+  color: #007bff;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.my-button:hover {
+  background-color: #f5f5f5;
+}
+.my-button-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-radius: 5px;
+}
+.my-button img {
+  display: block;
+  height: 100%;
+  max-width: none;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.button-label {
+  display: block;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+</style>
+
+   
             <!-- Popular games stats -->
 <script>
   var _paq = window._paq = window._paq || [];
